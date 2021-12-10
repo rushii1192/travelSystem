@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    align-items: flex;
+    height: 35px;
+    background-color: black;
+    padding: 5px;
+    word-spacing: 35px;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+#details{
+    display: flex;
+    width: 70%;
+    margin-left: 11%;
+    margin-bottom: 45px;
+    padding: 84px;
+}
+
+#words{
+    width: 50%;
+    font-size: 40px;
+    padding: 13px;
+}
+
+#words span{
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -8px;
+}
+
+#mainImage img{
+    height: 417px;
+    width: 585px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.178) 16px 16px;
+}
+
+#contact{
+    display: table-caption;
+    margin-left: 114%;
+    margin-top: 10%;
+    margin-bottom: 33px;
+}
+
+input{
+    width: 400px;
+    height: 33px;
+    border-radius: 13px;
+    margin: 10px;
+}
+
+button{
+    width: 105px;
+    height: 30Px;
+    background: cyan;
+    font-size: 19px;
+    border-radius: 12px;
+    border: darkcyan 3px solid;
+    margin-left: 152px;
+    margin-top: 10px;
+}
+
+span{
+    font-size: 28px;
+    margin-left: 135px;
+}
+
+#about{
+    /* border: black 2px solid; */
+    width: 63%;
+    display: flex;
+    margin-left: 15%;
+}
+
+#about div{
+    width: 30%;
+    box-shadow: 5px 10px rgb(161, 160, 160);
+    padding: 17px;
+    border-radius: 27px;
+    font-size: 20px;
+    margin: 21px;
+}
+
+#about div span{
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#home{
+    background-color: #4373db;
+}
