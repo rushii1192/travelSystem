@@ -15,7 +15,7 @@ class DatabaseConnection{
             host: "localhost",
             user: "rushi",
             password: "Rushi_1192#",
-            database: "villagecouncil"
+            database: "travelsystem"
         });
         return con;
     }
