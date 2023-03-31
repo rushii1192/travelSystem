@@ -13,8 +13,8 @@ class DatabaseConnection{
     constructor(){
         var con = mysql.createConnection({
             host: "localhost",
-            user: "rushi",
-            password: "Rushi_1192#",
+            user: "db_Username",
+            password: "db_Password",
             database: "travelsystem"
         });
         return con;
